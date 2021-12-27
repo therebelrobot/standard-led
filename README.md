@@ -15,7 +15,7 @@ This version is text-based.
 
 The top of the file contains information about the entire project file, the format version, whether it loops, the full dimensions of the matrix, the delay between frames, whether the frames overlay or replace entirely.
 
-Below that should contain frame-by-frame definitions of the led location and the hsl value.
+Below that should contain frame-by-frame definitions of the led location and the rgb(a) value in hexidecimal.
 
 #### `.sled`, `.sledy`, `.sledj`, `.sledx`
 The file extension for this formation should contain `.sled` (for `s`tandard `led`) to be a part of this standard, with an optional last initial for the type of format being used (`y` for `yml` files, `j` for `json`, `x` for `xml`, etc). `.sled` itself can be any of these formats, and the format itself should be inferred from the file contents itself.
