@@ -9,33 +9,33 @@ project:
     -
       - row: 0
         col: 0
-        h: 100
-        s: 100
-        l: 50
+        r: 0xff
+        g: 0xff
+        b: 0x00
       - row: 1
         col: 0
-        h: 100
-        s: 100
-        l: 50
+        r: 0xff
+        g: 0xff
+        b: 0x00
       - row: 2
         col: 0
-        h: 100
-        s: 100
-        l: 50
+        r: 0xff
+        g: 0xff
+        b: 0x00
     -
       - row: 0
         col: 0
-        h: 100
-        s: 100
-        l: 50
+        r: 0xff
+        g: 0xff
+        b: 0x00
       - row: 1
         col: 0
-        h: 100
-        s: 100
-        l: 50
+        r: 0xff
+        g: 0xff
+        b: 0x00
       - row: 2
         col: 0
-        h: 100
-        s: 100
-        l: 100
+        r: 0xff
+        g: 0xff
+        b: 0xff
   
