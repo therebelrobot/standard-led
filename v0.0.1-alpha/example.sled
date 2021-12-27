@@ -1,0 +1,41 @@
+version: v0.0.1-alpha
+author: Aster (@therebelrobot)
+
+project:
+  frameDelay: 300ms # amount of time to wait between frames
+  looping: true # should loop after reaching the last frame + waiting the frameDelay
+  frameDrop: true # whether it should drop/clear the previous frame before drawing the next
+  frames:
+    -
+      - row: 0
+        col: 0
+        h: 100
+        s: 100
+        l: 50
+      - row: 1
+        col: 0
+        h: 100
+        s: 100
+        l: 50
+      - row: 2
+        col: 0
+        h: 100
+        s: 100
+        l: 50
+    -
+      - row: 0
+        col: 0
+        h: 100
+        s: 100
+        l: 50
+      - row: 1
+        col: 0
+        h: 100
+        s: 100
+        l: 50
+      - row: 2
+        col: 0
+        h: 100
+        s: 100
+        l: 100
+  
